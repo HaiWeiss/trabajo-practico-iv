@@ -1,0 +1,22 @@
+{
+  "name": "tp4-typescript",
+  "version": "1.0.0",
+  "description": "Trabajo Practico IV",
+  "main": "dist/01_tipos.js",
+  "scripts": {
+    "dev:1": "tsx watch src/01_tipos.ts",
+    "dev:2": "tsx watch src/02_funciones.ts",
+    "dev:3": "tsx watch src/03_enums.ts",
+    "build": "tsc",
+    "start": "node dist/01_tipos.js"
+  },
+  "keywords": ["typescript", "tp4"],
+  "author": "Hai Weiss",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
